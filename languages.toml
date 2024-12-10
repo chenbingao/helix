@@ -1,0 +1,18 @@
+[[language]]
+name = "rust"
+file-types = [ "rs" ]
+language-servers = [ "rust-analyzer" ]
+
+[language-server.rust-analyzer]
+command = "rust-analyzer"
+
+[language-server.rust-analyzer.config]
+check.commmand = "clippy"
+
+
+[[language]]
+name = "typescript"
+file-types = [ "js", "ts" ]
+language-servers = [ { name = "typescript-language-server", except-features = [ "format" ] } ]
+
+

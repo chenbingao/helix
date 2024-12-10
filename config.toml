@@ -12,4 +12,9 @@ select = "underline"
 [editor.file-picker]
 hidden = false
 
-[keys.normal]
+[editor.lsp]
+display-inlay-hints = true
+
+[editor.soft-wrap]
+enable = true
+max-wrap = 30
